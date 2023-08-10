@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/card-slider.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/dropdown.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <script>
+        $(document).ready(function () {
+
+            var r =/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+            var email = $("#emailid").val();
+            $("#subscribe").click(function () {
+
+                if (r.test(email) == false) {
+                    $("#done").html("Please check your email and confirm your subscription!");
+                    $("form").hide();
+                    $("#done").addClass(done);
+                }
+            })
+            
+
+
+
+
+        })
+    </script>
+
+
+</head>
+
+<body>
+
+    <div>
+        <div id="d1">
+            <div style="margin-left: 1100px;">
+                <center>
+                    <ul id="sbtn">
+
+                        <li>
+                            <a href="https://twitter.com/ChahatGarg884?t=FoZJZ_geXyfs-zkQOPNpuw&s=09">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/ChahatGarg884?t=FoZJZ_geXyfs-zkQOPNpuw&s=09">
+                                <i class="fab fa-discord"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/ChahatGarg884?t=FoZJZ_geXyfs-zkQOPNpuw&s=09">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/ChahatGarg884?t=FoZJZ_geXyfs-zkQOPNpuw&s=09">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/chahat-garg-146a9224b">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/ChahatGarg884?t=FoZJZ_geXyfs-zkQOPNpuw&s=09">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </center>
+            </div>
+        </div>
+        <div id="d2" >
+            <div style="width: 100%; height: 100%;float: left;">
+                <div style=" width: 110px; margin: 14px 0px 0px 150px;float: left;">
+                    <img src="pics/logo.png" alt="" width="60px">
+                </div>
+                <div style=" width: 100px; margin: -40px 0px 0px -50px;float: left; margin-right: 350px;">
+                    <p class="p2" style="line-height: 20px;">ComplyAI</p>
+                </div>
+                
+                    <div class="dropdown" style="width: 150px ;  ">
+                        <button class="dropbtn">About <i class="fa-solid fa-angle-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#">
+                                <p class="submenu">ComplyAI</p>
+                            </a>
+                            <a href="#">
+                                <p class="submenu">Regulatory Compliance</p>
+                            </a>
+                            <a href="#">
+                                <p class="submenu">Our Partners</p>
+                            </a>
+                            <a href="#">
+                                <p class="submenu">Our Team</p>
+                            </a>
+                        </div>
+            
+                    </div>
+                    <div class="dropdown" style="width: 200px ; ">
+                        <button class="dropbtn">B2B Solutions <i class="fa-solid fa-angle-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#">
+                                <p class="submenu">ComplyAI Essentials</p>
+                            </a>
+                            <a href="#">
+                                <p class="submenu">COMPLiQ - AI Engine</p>
+                            </a>
+                            <a href="#">
+                                <p class="submenu">ComplyAI Smartchain</p>
+                            </a>
+            
+                        </div>
+            
+                    </div>
+                    <div class="dropdown" style="width: 200px ; ">
+                        <button class="dropbtn">VTRS Ecosystem <i class="fa-solid fa-angle-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#">
+                                <p class="submenu">The Power Plant</p>
+                            </a>
+                            <a href="#">
+                                <p class="submenu">The Power Grid</p>
+                            </a>
+                            <a href="#">
+                                <p class="submenu">vNodes</p>
+                            </a>
+                            <a href="#">
+                                <p class="submenu">Staking</p>
+                            </a>
+                            <a href="#">
+                                <p class="submenu">VTRS Litepaper</p>
+                            </a>
+            
+                        </div>
+            
+                    </div>
+                    <div class="dropdown" style="width: 200px ;">
+                        <button class="dropbtn">VTRS Presale <i class="fa-solid fa-angle-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#">
+                                <p class="submenu">Presale Information</p>
+                            </a>
+                            <a href="#">
+                                <p class="submenu">How-To-Buy Video</p>
+                            </a>
+                            <a href="#">
+                                <p class="submenu">Presale Structure</p>
+                            </a>
+                            <a href="#">
+                                <p class="submenu">Tokenomics</p>
+                            </a>
+                            <a href="#">
+                                <p class="submenu">Presale FAQ</p>
+                            </a>
+            
+                        </div>
+            
+                    </div>
+                    <div class="dropdown" style="width: 150px ;">
+                        <button class="dropbtn">Resources <i class="fa-solid fa-angle-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#">
+                                <p class="submenu">VTRS Litepaper</p>
+                            </a>
+                            <a href="#">
+                                <p class="submenu">Videos & AMAs</p>
+                            </a>
+                            <a href="#">
+                                <p class="submenu">Branding</p>
+                            </a>
+                            <a href="#">
+                                <p class="submenu">Newsletter</p>
+                            </a>
+            
+            
+                        </div>
+            
+                    </div>
+            
+                    
+
+                </div>
+            </div>
+        
+            <div id="d3">
+
+                <div>
+                 <center>   <p class="t1" >$670K+ RAISED IN STAGES 1 TO 3, STAGE 4 BURNED!</p>
+                    <p class="t2">VTRS PRESALE STAGE 5</p>
+                    <p class="t2" style="padding-top: 0px;">OPENING AUGUST 12TH!</p>
+                    <button id="lmbtn"> Learn more <i class="fa-solid fa-coins"></i></button>
+                
+                </center>
+                </div>
+                
+            </div>
+            <div id="d4">
+                <center>
+                    <p class="p1">
+                        ComplyAI aims to significantly reduce compliance-related costs and workload within the BFSI
+                        sector
+                    </p>
+                    <p class="p2">
+                        ComplyAI is developing a truly interconnected software and blockchain ecosystem with a
+                        compliance-specific, proprietary Artificial Intelligence Engine at its center. The final product
+                        suite will set new standards for the Financial Services Sector, as it is built for the specific
+                        regulatory needs of Registered Investment Advisors (RIAs), Broker Dealers, Tax and Accounting
+                        Firms, Insurance Carriers, and Small Banks and Credit Unions.
+                    </p>
+                </center>
+            </div>
+            <center>
+                <div class="d5">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="front" style="border-radius: 0px 30px 0px 30px;">
+                                <img src="pics/1.png" alt="Avatar" style="width:300px; margin-top: 20px;">
+                            </div>
+                            <div class="back" style="border-radius: 30px 0px 30px 0px;">
+                                <center>
+                                    <p class="p3">ComplyAI can help to significantly reduce the cost of existing
+                                        tech-stacks,
+                                        compliance personnel and their (re)training.</p>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="front" style="border-radius: 30px 0px 30px 0px;">
+                                <img src="pics/2.png" alt="Avatar" style="width:300px; margin-top: 20px;">
+                            </div>
+                            <div class="back" style="border-radius: 0px 30px 0px 30px;">
+                                <center>
+                                    <p class="p3">With most of the compliance-related tasks being repetitive and
+                                        meticulous,
+                                        ComplyAI uses sophisticated machine learning frameworks to manage and assist with
+                                        the
+                                        bulk of the workload.</p>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d5">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="front" style="border-radius: 0px 30px 0px 30px;">
+                                <img src="pics/3.png" alt="Avatar" style="width:300px; margin-top: 20px;">
+                            </div>
+                            <div class="back" style="border-radius: 30px 0px 30px 0px;">
+
+                                <center>
+                                    <p class="p3">ComplyAI provides intelligence needed to compliantly operate in
+                                        regulated
+                                        environments. Regulatory changes, enforcement actions, and any other relevant
+                                        news
+                                        and data is filtered to the specific needs of the client's business.</p>
+                                </center>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="front" style="border-radius: 30px 0px 30px 0px;">
+                                <img src="pics/4.png" alt="Avatar" style="width:300px; margin-top: 20px;">
+                            </div>
+                            <div class="back" style="border-radius: 0px 30px 0px 30px;">
+                                <center>
+                                    <p class="p3">ComplyAI sets new standards in all aspects of safe and compliant data
+                                        storage and access control, while also making any relevant information instantly
+                                        available for detailed reporting and auditing.</p>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </center>
+            <div id="d6">
+                <div style="width: 700px; float: left;">
+                    <p class="p1 a"> Future-proofing your Enterprise with AI and Blockchain Technology </p>
+                    <p class="p2 a"> ComplyAI is here to fulfill those requirements with a cost-effective and
+                        interconnected system that can quickly be customized to the specific needs and policies of each
+                        individual business.</p>
+                    <p class="p2 a"> The BFSI sector needs better compliance, data delivery, security, speed and
+                        simplicity to meet regulatory and customer demands in a changing world.</p>
+                    <p class="p2 a"> The system serves as a hub for the secure and compliant handling of everyday tasks
+                        and obligations and is designed to be industry-agnostic, so it can quickly and easily be adapted
+                        to other regulated industries in future roll-outs.</p>
+                    <p class="p2 a"> In its initial build the system comprises of three main components.</p>
+                </div>
+                <div>
+                    <img src="pics/d1.jpg" alt="error"
+                        style="margin-top: 150px; height: 500px;border-radius: 50px 0px 50px 0px;margin-left: 50px;">
+                </div>
+            </div>
+            <div class="d7">
+                <div>
+                    <img src="pics/d2.jpg" alt="" style="float: left;">
+                </div>
+                <div style=" float: left;margin-left: -150px;">
+                    <p class="p1 b"> ComplyAI Essentials </p>
+                    <p class="p2 b"> ComplyAI Essentials is our client-facing Business Software which serves as the
+                        portal to the ComplyAI Ecosystem. From here clients can handle their daily business tasks and
+                        obligations, manage traditional and digital assets, and create and utilize smart contracts.</p>
+                    <p class="p2 b"> Furthermore it provides dynamic prompting for compliance issues, meetings,
+                        deadlines, document storage, and a regulatory intelligence feed that can be customized and
+                        filtered to fit the specific requirements of the client business.</p>
+                    <p class="p2 b"> The transition to ComplyAI Essentials can be realized in a very cost-effective
+                        manner with virtually no downtime, as it is specifically designed to integrate seamlessly with
+                        all common ERP and CRM applications used throughout the industry.</p>
+
+                </div>
+
+
+            </div>
+            <div class="d7">
+                <p class="p1" style="margin-left: 170px;"> COMPLiQ - Artificial Intelligence Engine built for Regulatory
+                    Assurance and Compliance
+                </p>
+                <div style="width: 700px; float: left;">
+
+                    <p class="p2 a"> COMPLiQ is the proprietary Artificial Intelligence Engine of ComplyAI developed
+                        specifically for compliant operation in regulated industries. It is fast, scalable, and
+                        self-learning and provides dynamic handling of repetitive compliance-related tasks.</p>
+                    <p class="p2 a"> Its data pipeline, learning processes and inference processes are all bound to the
+                        blockchain for transparent audit and development trails.</p>
+                    <p class="p2 a"> COMPLiQ also manages compliant data storage and recordkeeping and – just like every
+                        other component of the ComplyAI Ecosystem – is designed as an industry-agnostic framework that
+                        can easily be trained for other regulated environments than the BFSI sector.</p>
+
+                </div>
+                <div>
+                    <img src="pics/d3.jpg" alt="error" style="margin-top: 150px; height: 300px;">
+                </div>
+            </div>
+            <div class="d7">
+                <div>
+                    <img src="pics/d4.jpg" alt="" style="float: left;margin-left: 250px;">
+                </div>
+                <div style=" float: left; margin-left: 100px;">
+                    <p class="p1 b"> ComplyAI Smartchain </p>
+                    <p class="p2 b"> The ComplyAI Smartchain is specifically designed to match the security and privacy
+                        requirements of the Financial Sector and other industries handling sensitive data.</p>
+                    <p class="p2 b"> It is a 3-Layer, permissioned Blockchain that houses digital assets, tokenized
+                        securities, and smart contracts on a highly scalable and energy efficient infrastructure and
+                        allows clients to deploy their private blockchain environment, keeping all transactions private
+                        to that businesses permission tree. In addition clients can also deploy applications for use by
+                        their permissioned customers.</p>
+
+                </div>
+
+
+            </div>
+
+            <div class="d8">
+                <p class="p1" style="float: left; margin-left: 150px;">The Market Potential of ComplyAI</p>
+                <p class="p4" "> The Financial Services sector in the USA presents a significant market potential for an application and ecosystem as unique as ComplyAI. The industry is constantly evolving with new regulations and technologies, creating a demand for innovative solutions. A product like ComplyAI, that offers a differentiated approach to address current challenges faced by businesses and institutions in the financial sector can easily gain a competitive advantage and capture a significant share of the market.</p>
+                <p class=" p4"> Additionally, with a growing trend towards digitization and automation, the demand for
+                    solutions based on blockchain technology is expected to continue to rise. This presents a
+                    significant
+                    opportunity for a well-designed and efficiently marketed solutions to establish itself as a market
+                    leader and tap into the vast potential in the US Financial Services sector.</p>
+                <p class=" p4"> However, ComplyAI has no intention to limit its solutions and services to the US market
+                    alone.</p><br>
+
+            </div>
+
+            <div class="d7">
+
+                <div style=" float: left; margin-left: 200px;">
+                    <h1 class="p1 b" style="font-size: 50px;font-weight: bolder;">
+                        14,800+ </h1>
+                    <p class="p2 b" style="font-size: 20px; font-weight: bolder;">Registered Investment Advisors</p>
+
+
+                </div>
+
+                <div style=" float: left; ">
+                    <p class="p1 b" style="font-size: 50px;font-weight: bolder;">
+                        10,500+ </p>
+                    <p class="p2 b" style="font-size: 20px; font-weight: bolder;">Banks & Credit Unions (FDIC & OCC)</p>
+
+
+                </div>
+
+
+
+
+            </div>
+            <center>
+                <div style="margin-top: -250px;">
+                    <p class="p1 b" style="font-size: 50px;font-weight: bolder;color: aqua;">
+                        25,000+ </p>
+                    <p class="p2 b" style="font-size: 20px; font-weight: bolder;">Potential ComplyAI Clients in the USA
+                        alone
+                    </p>
+
+
+                </div>
+            </center>
+            <div class="d8">
+                <p class="p1" style="float: left; margin-left: 150px;">Technology and Development Partners</p>
+
+                <p class=" p4"> ComplyAI has a grand vision – and realizing an endeavour at this scale does not only
+                    require
+                    a top notch team but also established and experienced partners who are able to help with bringing
+                    this
+                    vision to life. Therefore we are proud to have partnered with a number of renown industry and
+                    innovation
+                    leaders in their respective fields and are looking forward to change the Financial Services Sector
+                    with
+                    these collaborations..</p><br>
+
+            </div>
+            <div class="d7">
+                <div style=" float: left; margin-left: 160px;">
+                    <a href="https://innowise-group.com/" target="_blank"><img src="pics/l1.png" alt=""
+                            style="width: 300px;"></a>
+                    <a href="https://innowise-group.com/" target="_blank" style="text-decoration: none">
+                        <p class="l"> innowise </p>
+                    </a>
+                    <center>
+                        <p class="p2 c" style="margin-top: 10px;"> Development Partner</p>
+                    </center>
+
+
+                </div>
+                <div style=" float: left; margin-left: 50px;">
+                    <a href="https://www.redhat.com/en" target="_blank"><img src="pics/l2.png" alt=""
+                            style="width: 300px;"></a>
+                    <a href="https://www.redhat.com/en" target="_blank" style="text-decoration: none">
+                        <p class="l"> RedHat
+                        </p>
+                    </a>
+                    <center>
+                        <p class="p2 c" style="margin-top: 10px;"> Infrastructure Provider</p>
+                    </center>
+
+
+                </div>
+                <div style=" float: left; margin-left: 50px; margin-top: 10px;">
+                    <a href="https://www.cloudflare.com/" target="_blank"><img src="pics/l3.png" alt=""
+                            style="width: 300px;"></a>
+                    <a href="https://www.cloudflare.com/" target="_blank" style="text-decoration: none">
+                        <p class="l"> Cloudflare </p>
+                    </a>
+                    <center>
+                        <p class="p2 c" style="margin-top: 10px;">Cybersecurity Partner</p>
+                    </center>
+
+
+                </div>
+
+
+            </div>
+            <div class="d8" style="margin-top: -300px;">
+                <p class="p1" style="float: left; margin-left: 150px; "> Meet the ComplyAI Core Team</p>
+
+                <p class=" p4" style="width: 1000px;">Our highly experienced team, led by seasoned businessmen and
+                    visionaries, is well-equipped to
+                    navigate even the toughest economic conditions. Our CEO’s successful track record in launching and
+                    growing projects, combined with their extensive experience in capital markets, make them the ideal
+                    leader for our team. With every member having gone through at least one project launch, we have a
+                    wealth
+                    of knowledge on what it takes to succeed, avoiding the pitfalls that come with starting up a new
+                    venture.</p><br>
+
+            </div>
+
+            <div class="slide-container swiper" style="margin-top: 200px; margin-left: 250px;">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="profilecard" style="width: 250px; margin-right: 0px;margin-left: 0px;">
+                                <div class="image">
+                                    <!-- Place your image here -->
+                                    <img src="pics/p1.png" alt="Image" style="width: 150px;">
+                                </div>
+                                <center>
+                                    <div class="description">
+                                        <h2 class="pname">Chad Justice</h2>
+                                        <p class="pdes">Chief Executive Officer</p>
+                                    </div>
+                                    <a href="">
+                                        <div class="btn">View Details</div>
+                                    </a>
+                                </center>
+                                <center>
+                                    <ul id="smbtn">
+
+                                        <li>
+                                            <a href="https://twitter.com/ChahatGarg884?t=FoZJZ_geXyfs-zkQOPNpuw&s=09">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/chahat-garg-146a9224b">
+                                                <i class="fab fa-linkedin"></i>
+                                            </a>
+                                        </li>
+
+
+                                    </ul>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="profilecard" style="width: 250px; margin-left: 0px;">
+                                <div class="image">
+                                    <!-- Place your image here -->
+                                    <img src="pics/p2.png" alt="Image" style="width: 150px;">
+                                </div>
+                                <center>
+                                    <div class="description">
+                                        <h2 class="pname">Chad Justice</h2>
+                                        <p class="pdes">Chief Executive Officer</p>
+                                    </div>
+                                    <a href="">
+                                        <div class="btn">View Details</div>
+                                    </a>
+                                </center>
+                                <center>
+                                    <ul id="smbtn">
+
+                                        <li>
+                                            <a href="https://twitter.com/ChahatGarg884?t=FoZJZ_geXyfs-zkQOPNpuw&s=09">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+
+
+
+                                    </ul>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="profilecard" style="width: 250px; margin-left: 0px;">
+                                <div class="image">
+                                    <!-- Place your image here -->
+                                    <img src="pics/p3.png" alt="Image" style="width: 150px;">
+                                </div>
+                                <center>
+                                    <div class="description">
+                                        <h2 class="pname">Chad Justice</h2>
+                                        <p class="pdes">Chief Executive Officer</p>
+                                    </div>
+                                    <a href="">
+                                        <div class="btn">View Details</div>
+                                    </a>
+                                </center>
+                                <center>
+                                    <ul id="smbtn">
+
+                                        <li>
+                                            <a href="https://twitter.com/ChahatGarg884?t=FoZJZ_geXyfs-zkQOPNpuw&s=09">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/chahat-garg-146a9224b">
+                                                <i class="fab fa-linkedin"></i>
+                                            </a>
+                                        </li>
+
+
+                                    </ul>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="profilecard" style="width: 250px; margin-left: 0px;">
+                                <div class="image">
+                                    <!-- Place your image here -->
+                                    <img src="pics/p4.jpg" alt="Image" style="width: 150px;border-radius: 50%;">
+                                </div>
+                                <center>
+                                    <div class="description">
+                                        <h2 class="pname">Chad Justice</h2>
+                                        <p class="pdes">Chief Executive Officer</p>
+                                    </div>
+                                    <a href="">
+                                        <div class="btn">View Details</div>
+                                    </a>
+                                </center>
+                                <center>
+                                    <ul id="smbtn">
+
+                                        <li>
+                                            <a href="https://twitter.com/ChahatGarg884?t=FoZJZ_geXyfs-zkQOPNpuw&s=09">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/chahat-garg-146a9224b">
+                                                <i class="fab fa-linkedin"></i>
+                                            </a>
+                                        </li>
+
+
+                                    </ul>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="profilecard" style="width: 250px; margin-left: 0px;">
+                                <div class="image">
+                                    <!-- Place your image here -->
+                                    <img src="pics/p5.png" alt="Image" style="width: 150px;">
+                                </div>
+                                <center>
+                                    <div class="description">
+                                        <h2 class="pname">Chad Justice</h2>
+                                        <p class="pdes">Chief Executive Officer</p>
+                                    </div>
+                                    <a href="">
+                                        <div class="btn">View Details</div>
+                                    </a>
+                                </center>
+                                <center>
+                                    <ul id="smbtn">
+
+                                        <li>
+                                            <a href="https://twitter.com/ChahatGarg884?t=FoZJZ_geXyfs-zkQOPNpuw&s=09">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/chahat-garg-146a9224b">
+                                                <i class="fab fa-linkedin"></i>
+                                            </a>
+                                        </li>
+
+
+                                    </ul>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="profilecard" style="width: 250px; margin-left: 0px; ">
+                                <div class="image">
+                                    <!-- Place your image here -->
+                                    <img src="pics/p6.png" alt="Image" style="width: 150px;">
+                                </div>
+                                <center>
+                                    <div class="description">
+                                        <h2 class="pname">Chad Justice</h2>
+                                        <p class="pdes">Chief Executive Officer</p>
+                                    </div>
+                                    <a href="">
+                                        <div class="btn">View Details</div>
+                                    </a>
+                                </center>
+                                <center>
+                                    <ul id="smbtn">
+
+                                        <li>
+                                            <a href="https://twitter.com/ChahatGarg884?t=FoZJZ_geXyfs-zkQOPNpuw&s=09">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/chahat-garg-146a9224b">
+                                                <i class="fab fa-linkedin"></i>
+                                            </a>
+                                        </li>
+
+
+                                    </ul>
+                                </center>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+
+            </div>
+            <div>
+                <p class="p2" style="margin-left: 250px;">
+                    In addition to being fully doxxed, our Core Team has also completed a <span style="color: skyblue;">
+                        full KYC </span> process with <span style="color: skyblue;"> SolidProof </span>.
+                </p>
+            </div>
+            <div style="margin-left: 500px; margin-top: -100px;">
+                <a href="https://github.com/solidproof/projects/tree/main/ComplyAI" target="_blank"><img
+                        src="pics/solid-proof.png" alt="error"></a>
+            </div>
+            <div>
+                <center>
+                    <div>
+                        <h1 class="p1" style="font-size: 70px;">ComplyAI Newsletter</h1>
+                    </div>
+                    <div class="subscribe-box">
+                        <center>
+                            <div>
+                                <p class="p5"> <br><br> Tired of having to follow all our movements on Social Media?</p>
+                            </div>
+                            <div>
+                                <p class="p5" style="margin-top: 30px;margin-bottom: 40px;">Simply subscribe to our
+                                    ComplyAI
+                                    Newsletter, stay up-to-date with all new developments, and never miss any important
+                                    announcements again!</p>
+                            </div>
+                            <div>
+
+                                <form action="">
+                                    <input type="email" name="emailid" id="emailid" placeholder="Email address"
+                                        required>
+                                    <input type="button" value="Subscribe" id="subscribe">
+                                </form>
+                                <span id="done"></span>
+                            </div>
+                            <div style="width: 700px;">
+                                <a href=""><img src="pics/emailoctopus.png" alt=""></a>
+                            </div>
+
+                        </center>
+
+
+                    </div>
+
+                </center>
+            </div>
+            <div class="d9">
+                <div style="width: 45%; height: 100%;float: left;">
+                    <div style=" width: 110px; margin: 100px 0px 0px 100px;float: left;">
+                        <img src="pics/logo.png" alt="" width="100px">
+                    </div>
+                    <div style=" width: 100px; height: 20px; margin: 70px 0px 0px 10px;float: left;">
+                        <p class="p2" style="line-height: 20px;">ComplyAI</p>
+                    </div>
+                    <div style=" width: 400px;  margin: 220px 0px 0px 100px;">
+                        <p class="p2" style="width: 400px;">Streamline your business with Blockchain technology and
+                            Artificial Intelligence.</p>
+                    </div>
+                    <div style="margin-left: 60px;margin-top:-70px;">
+                        <center>
+                            <ul id="sbtn">
+
+                                <li>
+                                    <a href="https://twitter.com/ChahatGarg884?t=FoZJZ_geXyfs-zkQOPNpuw&s=09">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/ChahatGarg884?t=FoZJZ_geXyfs-zkQOPNpuw&s=09">
+                                        <i class="fab fa-discord"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/ChahatGarg884?t=FoZJZ_geXyfs-zkQOPNpuw&s=09">
+                                        <i class="fab fa-telegram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/ChahatGarg884?t=FoZJZ_geXyfs-zkQOPNpuw&s=09">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/chahat-garg-146a9224b">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/ChahatGarg884?t=FoZJZ_geXyfs-zkQOPNpuw&s=09">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </center>
+                    </div>
+
+                </div>
+                <div style=" width: 55%;height: 100%;float: left;">
+                    <div style=" width: 250px; margin: 100px 0px 0px 0px; float: left;">
+                        <p class="h">About</p>
+                        <a href="">
+                            <p class="i">ComplyAI
+
+                            </p>
+                        </a>
+                        <a href="">
+                            <p class="i">
+                                Regulatory Compliance
+
+                            </p>
+                        </a>
+                        <a href="">
+                            <p class="i">
+                                Our Partners
+
+                            </p>
+                        </a>
+                        <a href="">
+                            <p class="i">Our Team
+
+                            </p>
+                        </a><br><br>
+                        <p class="h">Business Solutions</p>
+                        <a href="">
+                            <p class="i">ComplyAI Essentials
+                            </p>
+                        </a>
+                        <a href="">
+                            <p class="i">COMPLiQ - AI Engine
+                            </p>
+                        </a>
+                        <a href="">
+                            <p class="i">ComplyAI Smartchain</p>
+                        </a>
+                    </div>
+                    <div style=" width: 250px; margin: 100px 0px 0px 0px; float: left;">
+                        <p class="h">VTRS Ecosystem</p>
+                        <a href="">
+                            <p class="i">The Power Plant
+
+                            </p>
+                        </a>
+                        <a href="">
+                            <p class="i">
+                                The Power Grid
+
+                            </p>
+                        </a>
+                        <a href="">
+                            <p class="i">
+                                vNodes
+
+                            </p>
+                        </a>
+                        <a href="">
+                            <p class="i">Staking
+
+                            </p>
+                            <a href="">
+                                <p class="i">VTRS Litepaper
+                                </p>
+                            </a><br><br>
+                            <p class="h">VTRS Presale</p>
+                            <a href="">
+                                <p class="i">Presale Information
+                                </p>
+                            </a>
+                            <a href="">
+                                <p class="i">Presale Structure
+                                </p>
+                            </a>
+                            <a href="">
+                                <p class="i">Tokenomics</p>
+                            </a>
+                            <a href="">
+                                <p class="i">Presale FAQ</p>
+                            </a>
+                            <a href="">
+                                <p class="i">Buy VTRS now!</p>
+                            </a>
+                    </div>
+                    <div style=" width: 250px; margin: 100px 0px 0px 0px; float: left;">
+                        <p class="h">Resources</p>
+                        <a href="">
+                            <p class="i">Video Gallery
+
+                            </p>
+                        </a>
+                        <a href="">
+                            <p class="i">
+                                Branding
+
+                            </p>
+                        </a>
+                        <a href="">
+                            <p class="i">
+                                Newsletter
+
+                            </p>
+                        </a>
+                        <br><br>
+                        <p class="h">Get In Touch
+
+                        </p>
+                        <a href="">
+                            <p class="i">mail@ComplyAI.io
+                            </p>
+                        </a><br><br>
+                        <p class="h">Marketing Inquiries</p>
+                        <a href="">
+                            <p class="i">marketing@ComplyAI.io
+                            </p>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+            <div style="height: 80px;">
+                <div style="margin-left: 500px;margin-top: 5px;">
+                    <a href="">
+                        <p class="last">Cookie Policy <span style="color: white;">| </span></p>
+                    </a>
+                    <a href="">
+                        <p class="last"> &nbsp; Privacy Statement <span style="color: white;">|</span> </p>
+                    </a>
+                    <a href="">
+                        <p class="last"> &nbsp; Opt-out Preferences <span style="color: white;">|</span> </p>
+                    </a>
+                    <a href="">
+                        <p class="last"> &nbsp; Disclaimer</p>
+                    </a>
+
+                </div>
+                <br>
+                <div style="margin-left: 520px;margin-top: 5px;">
+                    <p style="color: white;">©2023, Collaborative Digital Labs Ltd. All Rights Reserved.</p>
+                </div>
+            </div>
+
+
+
+            <!-- Swiper JS -->
+            <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js"></script>
+
+            <script>
+
+                var swiper = new Swiper(".slide-content", {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                    centerSlide: 'true',
+                    fade: 'true',
+                    grabCursor: 'true',
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                        dynamicBullets: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+
+                    breakpoints: {
+                        0: {
+                            slidesPerView: 1,
+                        },
+                        520: {
+                            slidesPerView: 2,
+                        },
+                        950: {
+                            slidesPerView: 3,
+                        },
+                        1250: {
+                            slidesPerView: 4,
+                        },
+                    },
+                });
+            </script>
+            <!--Uncomment this line-->
+            <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/script.js"></script>
+</body>
+
+</html>
